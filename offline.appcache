@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+# version 1
+# http://appcachefacts.info/
+
+
+CACHE:
+index.html
+
+
+NETWORK:
+*
+http://*
+https://*
+
+
+FALLBACK:

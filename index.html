@@ -1,75 +1,159 @@
 <!DOCTYPE html>
-<html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" manifest="offline.appcache"> <!--<![endif]-->
 <head>
-  <meta charset='utf-8'>
-
-  <title>chrisjacob/CSSOFF2011 @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #ffffff;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #000000; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #000000; }
-    h3 { text-align: center; color: #000000; }
-    a { color: #000000; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Triple Dare | The Web's Messiest Challenge! - Knucklelodeon Network&trade;</title>
+    <meta name="description" content="Airing Thursdays on the Knucklelodeon Network&trade;. Dare to challenge the web's messiest obstacles for your chance to win AMAZING prizes!">
+    <meta name="author" content="Knucklelodeon Network&trade;">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <script src="assets/javascripts/_head.js"></script>
+    
+    <noscript>
+        <link rel="stylesheet" href="assets/stylesheets/basic.css">
+    </noscript>
+    
+    <!-- mathiasbynens.be/notes/touch-icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 </head>
 
-<body>
-  <a href="http://github.com/chrisjacob/CSSOFF2011"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/chrisjacob/CSSOFF2011/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/chrisjacob/CSSOFF2011/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+<!-- http://paulirish.com/2009/markup-based-unobtrusive-comprehensive-dom-ready-execution/ -->
+<body id="cDefault" class="aHomepage" data-controller="default" data-action="homepage">
+    <header>
+        <hgroup>
+            <h1>Triple Dare</h1>
+            <h2>The Web's Messiest Challenge!</h2>
+        </hgroup>
+        <p>Airing Thursdays on the Knucklelodeon Network&trade;</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#obstacles">Obstacles</a></li>
+                <li><a href="#prizes">Prizes</a></li>
+                <li><a href="#be-a-contestant">Be A Contestant</a></li>
+                <li><a href="#">Back To Top</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div role="main">
+        <section id="obstacles">
+            <h2>Obstacles</h2>
+            <nav>
+                <ol>
+                    <li><a href="#the-tank">The Tank</a></li>
+                    <li><a href="#sundae-slide">Sunday Slide</a></li>
+                    <li><a href="#human-hamster-wheel">Human Hamster Wheel</a></li>
+                    <li><a href="#down-the-hatch">Down The Hatch</a></li>
+                    <li><a href="#pick-it">Pick It!</a></li>
+                    <li><a href="#the-wringer">The Wringer</a></li>
+                </ol>
+            </nav>
+            <div id="the-tank">
+                <h3>The Tank</h3>
+                <p>[COPY HERE]</p>
+            </div>
+            <div id="sundae-slide">
+                <h3>Sunday Slide</h3>
+                <p>[COPY HERE]</p>
+            </div>
+            <div id="human-hamster-wheel">
+                <h3>Human Hamster Wheel</h3>
+                <p>[COPY HERE]</p>
+            </div>
+            <div id="down-the-hatch">
+                <h3>Down The Hatch</h3>
+                <p>6ft Slide Covered In Gunk!</p>
+            </div>
+            <div id="pick-it">
+                <h3>Pick It!</h3>
+                <p>[COPY HERE]</p>
+            </div>
+            <div id="the-wringer">
+                <h3>The Wringer</h3>
+                <p>[COPY HERE]</p>
+            </div>
+        </section>
+        
+        <section id="prizes">
+            <h2>Prizes</h2>
+            <ol>
+                <li>A Trip To Space Camp</li>
+                <li>A Nash Skateboard</li>
+                <li>A Casio Rapman Keyboard!</li>
+                <li>A 13 Inch TV/VCR Combo!</li>
+            </ol>
+        </section>
+        
+        <section id="be-a-contestant">
+            <h2>Be A Contestant</h2>
+            <form id="form-entry" action="#" method="post">
+                <div class="control-group">
+                    <label for="entry-name">Your Name</label>
+                    <input  id="entry-name" name="entry[name]" type="text" required maxlength="100" value="">
+                </div>
+                <div class="control-group">
+                    <label for="entry-email">Email Address</label>
+                    <input  id="entry-email" name="entry[email]" type="email" required maxlength="100" value="">
+                </div>
+                <div class="control-group">
+                    <label for="entry-team">Team Name</label>
+                    <input  id="entry-team" name="entry[team]" type="text" required maxlength="100" value="">
+                </div>
+                <div class="control-group">
+                    <label for="entry-color">Team Color</label>
+                    <select id="entry-color" name="entry[color]" required>
+                        <option selected value=""></option>
+                        <option value="Red">Red</option>
+                        <option value="Red">Green</option>
+                        <option value="Red">Blue</option>
+                    </select> 
+                </div>
+                <div class="control-group">
+                    <label for="entry-gender">Gender</label>
+                    <select id="entry-gender" name="entry[gender]" required>
+                        <option selected value=""></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select> 
+                </div>
+                <div class="control-group">
+                    <label for="entry-photo">Profile Photo URL</label>
+                    <input  id="entry-photo" name="entry[photo]" type="url" required maxlength="250" value="">
+                </div>
+                <div class="control-group">
+                    <button type="submit">Submit Entry!</button>
+                </div>
+            </form>
+            
+            <div id="clock">
+                <p>The Clock Is Ticking!</p>
+            </div>
+        </section>
     </div>
+    
+    <footer>
+        <hr class="kn">
+        <div class="about">
+            <h5>The Knucklelodeon Network</h5>
+        </div>
+        <div id="visit">
+            <h5>Visit Our Studio</h5>
+            <div class="vcard">
+                
+            </div>
+            
+        </div>
+    </footer>
 
-    <h1><a href="http://github.com/chrisjacob/CSSOFF2011">CSSOFF2011</a>
-      <span class="small">by <a href="http://github.com/chrisjacob">chrisjacob</a></span></h1>
-
-    <div class="description">
-      My entry into CSSOff 2011. CSSOff is a competition for front-end developers to show off their skills in a no holds barred display of CSS and markup skills.
-    </div>
-
-    <h2>Contact</h2>
-<p>Chris Jacob (i.chris.jacob@gmail.com)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/chrisjacob/CSSOFF2011/zipball/master">zip</a> or
-      <a href="http://github.com/chrisjacob/CSSOFF2011/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/chrisjacob/CSSOFF2011</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/chrisjacob/CSSOFF2011">chrisjacob/CSSOFF2011</a>
-    </div>
-
-  </div>
-
-  
+    <script src="assets/javascripts/_body.js"></script>
 </body>
-</html>
